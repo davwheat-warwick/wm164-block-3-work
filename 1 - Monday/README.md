@@ -16,7 +16,7 @@
 
 ### What is open source software?
 
-Open source software is software developed with its source code public for anyone to see.
+Open source software is software developed with its source code public for anyone to see. This is usually done alongside a version control system, like Git, with a public hosting platform for this (such as GitHub or GitLab).
 
 These are typically (but not always) licensed under 'copyleft' and permissive licenses which allow others to make copies and
 
