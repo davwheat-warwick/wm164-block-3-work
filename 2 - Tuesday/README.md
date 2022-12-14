@@ -28,4 +28,17 @@ Each individual snippet runs in the context of all other previous snippets, allo
 
 Use early-exits where possible, where you check against a condition then use a `return` statement to prevent further execution of the function. This means that an `else` statement is not needed, hence less indentation is needed.
 
+```py
+def myFunc():
+  x = True
+
+  if x:
+    # do something if x is True
+    return
+
+  # do something if x is False
+```
+
 Furthermore, sometimes a huge chain of `if`/`elif`/`else` isn't even needed and another way is suitable and provides the same result without "`if` hell".
+
+You can also split the various conditions and branches into different functions and call those functions instead.
