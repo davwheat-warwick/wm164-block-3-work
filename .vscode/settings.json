@@ -7,5 +7,6 @@
     "xstring": "cpp",
     "tuple": "cpp",
     "iostream": "cpp"
-  }
+  },
+  "python.analysis.typeCheckingMode": "basic"
 }
